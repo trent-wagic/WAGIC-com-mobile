@@ -1,0 +1,104 @@
+
+h2 {	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22x;
+    color:#666666;
+    font-weight:100;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#666;
+}
+.abnav {
+    width: 100%;
+    /*padding-left: 10px;*/
+    /*background:url(images/gradient.png);
+    background-size:1px 100%;
+    background-repeat: x;*/
+    background: -webkit-linear-gradient(#F2F2F2, #AAAAAA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F2F2F2, #AAAAAA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2F2F2, #AAAAAA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F2F2F2, #AAAAAA); /* Standard syntax (must be last) */
+}
+#menu_txt {
+    margin: 0;
+    color: #666666;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#menu_row {
+    padding: 10px 0px 10px 20px; 
+}
+#menu_txt:hover {
+    color: #900;
+}
+.abslug {
+    width: 100%; 
+    background-color: #8CC63F;
+    /*padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 3px;*/
+}
+#box_txt {
+    padding: 20px 0 20px 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 75%;
+}
+#ab_left {
+    float: left; 
+    width: 48%; 
+    padding: 0px 10px 10px 0px; 
+    border: 1px solid white;
+}
+#ab_right {
+    float: left; 
+    width: 48%; 
+    padding: 10px 0px 0px 0px; 
+    border: 1px solid white;
+}
+#ab_bottom {
+    width: 65%;
+    padding: 0px 0px 0px 17px;
+}
+/* Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+    #ab_left {
+        width: 100%;
+    }
+    #ab_right {
+        width: 100%;
+    }
+    #ab_bottom {
+        width: 100%;
+	padding: 0px;
+    }
+}
+@media screen and (max-width: 760px) {
+    #ab_left {
+        width: 100%;
+    }
+    #ab_right {
+        width: 100%;
+    }
+    #ab_bottom {
+        width: 100%;
+	padding: 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #ab_left {
+        width: 100%;
+    }
+    #ab_right {
+        width: 100%;
+    }
+    #ab_bottom {
+        width: 100%;
+	padding: 0px;
+    }
+}
