@@ -1,4 +1,9 @@
-
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
 h2 {	
     font-family: Arial, Helvetica, sans-serif;
     font-size:22x;
@@ -63,6 +68,20 @@ p {
     width: 65%;
     padding: 0px 0px 0px 17px;
 }
+#con {
+    min-height:100%;
+    position:relative;
+}
+#_content {
+   height: 100%; /* Changed this height */
+   padding-bottom:60px;
+}
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:120px;
+}
 /* Media Queries
 /*-----------------------------------------------------------------------------------*/
 
@@ -100,5 +119,8 @@ p {
     #ab_bottom {
         width: 100%;
 	padding: 0px;
+    }
+    .footer {
+        height: 130px;
     }
 }

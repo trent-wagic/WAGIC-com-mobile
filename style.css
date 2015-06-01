@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* General Setup
 /*-----------------------------------------------------------------------------------*/
-body{font-family:Arial, Helvetica, sans-serif;padding:0;font-size:12px;margin:0 auto;color:#000000;background-color: white;}
+body{font-family:Arial, Helvetica, sans-serif;padding:0;font-size:12px;margin:0 auto;color:#000000;background-color: white; height: 100%; padding: 0px;}
 .clear{clear:both;}
 p{padding:0;margin:0px;text-align:left;line-height:20px;}
 
@@ -181,7 +181,7 @@ input.form_submit{float:right; background-color:#403933; color:#FFFFFF; border:n
 
 /* Footer
 /*-----------------------------------------------------------------------------------*/
-.footer{background-color:#403933; border-top:8px #3a342f solid; color:#FFFFFF; padding:10px 0 10px 0; margin:80px 0 0 0; text-align:center;color:#7d756f;}
+.footer{background-color:#403933; border-top:8px #3a342f solid; color:#FFFFFF; padding:0px; margin:0px; text-align:center;color:#7d756f;}
 .footer_socials{ text-align:center; padding:40px 0 50px 0; background:url(images/footer_divider.gif) no-repeat center bottom;}
 .footer_socials ul{ display:inline; padding:0px; margin:0px;}
 .footer_socials ul li{ display:inline; padding:0 10px 0 10px;}

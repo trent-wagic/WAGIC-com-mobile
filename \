@@ -10,7 +10,6 @@
 <link rel="stylesheet" type="text/css" media="all" href="style.css" />
 <link rel="stylesheet" type="text/css" media="all" href="wagic.css" />
 <link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <!-- jQuery -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <!-- Flickr Feed -->
@@ -27,7 +26,7 @@
         <div class="logo" style="position: relative; top: -20px;"><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
         <div class="menu">
             <ul id="main_menu" class="wagic_font">
-                <li><a href="about.html">about us</a></li>
+                <li><a href="about.html">about</a></li>
                 <li><a href="about.html">services</a></li>
                 <li><a href="blog.html">work</a></li>
                 <li><a href="portfolio.html">contact</a></li>
@@ -44,8 +43,8 @@
 	    <div class="abnav" style="width: 100%;">
                 <div id="menu_row"><a id="menu_txt" href="about.html">Overview</a></div>
                 <div id="menu_row"><font style="color:#900; font-family:Arial, Helvetica, sans-serif; padding:0;">Approach</font></div>
-                <div id="menu_row"><a id="menu_txt" href="about_team.html">Team</a></div>
-                <div id="menu_row"><a id="menu_txt" href="about_brands.html">WAGIC brands</a></div>
+                <div id="menu_row"><a id="menu_txt" href="about.html">Team</a></div>
+                <div id="menu_row"><a id="menu_txt" href="about.html">WAGIC brands</a></div>
             </div><!-- abnav -->
             <br><br>
             <div class="abslug" style="width: 100%;">
@@ -61,7 +60,7 @@
 		</div>
 		
 		<div id="ab_left" >
-                    <p>The WAGIC team approaches every project with an open mind and collaborates with clients throughout the entire process. <br>Ideas must be vetted, tested, and proven from every angle and only the best will make the cut.</p>
+                    <p>The WAGIC team approaches every project with an open mind and collaborates with clients throughout the entire process. <br>Ideas must be vetted, tested, and proven from every angle and only the best will make the cut.</p<br>
 		</div>
 		<div id="ab_right" >
 	            <p>We bring creative ideas to every step, from research to initial concept, testing, proof of concept, engineering, manufacturing, branding, and distribution. We look at <br>all the pieces of the puzzle that produce market-ready products.</p>	
